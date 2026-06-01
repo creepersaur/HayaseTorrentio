@@ -10,7 +10,7 @@ export default new class Torrentio {
 			{
 				hash: "0123456789ABCDEF0123456789ABCDEF01234567",
 				link: "0123456789ABCDEF0123456789ABCDEF01234567",
-				title: "creepersaur",
+				title: "Alya creepersaur",
 				size: 1,
 				type: "alt",
 				date: new Date(),
