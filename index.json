@@ -1,0 +1,18 @@
+[
+	{
+		"id": "hayase.extension.torrentio",
+		"name": "Torrentio",
+		"version": "1.0.0",
+		"type": "torrent",
+		"accuracy": "medium",
+		"ratio": 0,
+		"media": "dub",
+		"languages": [
+			"all"
+		],
+		"nsfw": false,
+		"icon": "https://torrentio.strem.fun/images/logo_v1.png",
+		"update": "https://raw.githubusercontent.com/creepersaur/HayaseTorrentio/main/index.json",
+		"code": "https://raw.githubusercontent.com/creepersaur/HayaseTorrentio/main/extension.js"
+	}
+]
