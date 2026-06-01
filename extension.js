@@ -10,6 +10,10 @@ export default new class Torrentio {
 				title: "creepersaur",
 				link: "magnet:?xt=urn:btih:0123456789ABCDEF0123456789ABCDEF01234567",
 				hash: "0123456789ABCDEF0123456789ABCDEF01234567",
+				seeders: 1,
+				size: 0,
+				accuracy: "medium",
+				type: "alt",
 			}
 		]
 	}
