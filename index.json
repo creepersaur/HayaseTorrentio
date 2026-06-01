@@ -1,9 +1,9 @@
 [
 	{
 		"manifestVersion": 2,
-		"id": "hayase.extension.torrentio",
+		"id": "torrentio",
 		"name": "Torrentio",
-		"version": "1.0.0",
+		"version": "0.0.1",
 		"type": "torrent",
 		"accuracy": "medium",
 		"ratio": 0,
