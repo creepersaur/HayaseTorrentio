@@ -3,29 +3,24 @@ console.log("TORRENTIO MODULE LOADED")
 export default new class Torrentio {
 	// gh:creepersaur/HayaseTorrentio
 
-	// async single({ titles, episode }) {
-	// 	console.log("TORRENTIO: single()")
-
-	// 	return [
-	// 		{
-	// 			hash: "0123456789ABCDEF0123456789ABCDEF01234567",
-	// 			link: "0123456789ABCDEF0123456789ABCDEF01234567",
-	// 			title: "creepersaur",
-	// 			size: 1,
-	// 			type: "alt",
-	// 			date: new Date(),
-	// 			seeders: 1,
-	// 			leechers: 0,
-	// 			downloads: 0,
-	// 			accuracy: "medium"
-	// 		}
-	// 	]
-	// }
-
 	async single(query) {
-        console.log("TORRENTIO: single", query)
-        return []
-    }
+		console.log("TORRENTIO: single", query)
+
+		return [
+			{
+				hash: "dd8255ecdc7ca55fb0bbf81323d87062db1f6d1c",
+				link: "dd8255ecdc7ca55fb0bbf81323d87062db1f6d1c",
+				title: "creepersaur",
+				size: 1,
+				type: "alt",
+				date: new Date(),
+				seeders: 1,
+				leechers: 0,
+				downloads: 0,
+				accuracy: "medium"
+			}
+		]
+	}
 
     async batch(query) {
         console.log("TORRENTIO: batch", query)
