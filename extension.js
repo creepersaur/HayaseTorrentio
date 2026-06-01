@@ -41,8 +41,4 @@ export default new class Torrentio {
         console.log("test")
         return true
     }
-
-	async test() {
-		return true
-	}
 }()
