@@ -2,8 +2,16 @@ export default new class Torrentio {
 	// base = 'https://torrent-search-api-livid.vercel.app/api/nyaasi/'
 
 	async single({ titles, episode }) {
-		if (!titles?.length) return []
-		return this.search(titles[0], episode)
+		// if (!titles?.length) return []
+		// return this.search(titles[0], episode)
+
+		return [
+			{
+				title: "creepersaur",
+				link: "magnet:?xt=urn:btih:0123456789ABCDEF0123456789ABCDEF01234567",
+				hash: "0123456789ABCDEF0123456789ABCDEF01234567",
+			}
+		]
 	}
 
 	batch = this.single
