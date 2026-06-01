@@ -23,22 +23,25 @@ export default new class Torrentio {
 	// }
 
 	async single(query) {
-        console.log("single", query)
+        console.log("TORRENTIO: single", query)
         return []
     }
 
     async batch(query) {
-        console.log("batch", query)
+        console.log("TORRENTIO: batch", query)
         return []
     }
 
     async movie(query) {
-        console.log("movie", query)
+        console.log("TORRENTIO: movie", query)
         return []
     }
 
     async test() {
-        console.log("test")
+        console.log("TORRENTIO: test")
+
+		await this.single({})
+
         return true
     }
 }()
