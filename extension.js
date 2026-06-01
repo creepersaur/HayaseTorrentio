@@ -39,9 +39,6 @@ export default new class Torrentio {
 
     async test() {
         console.log("TORRENTIO: test")
-
-		await this.single({})
-
         return true
     }
 }()
