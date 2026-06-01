@@ -5,15 +5,20 @@ export default new class Torrentio {
 		// if (!titles?.length) return []
 		// return this.search(titles[0], episode)
 
+		console.log("TORRENTIO LOADED")
+
 		return [
 			{
-				title: "creepersaur",
-				link: "magnet:?xt=urn:btih:0123456789ABCDEF0123456789ABCDEF01234567",
 				hash: "0123456789ABCDEF0123456789ABCDEF01234567",
-				seeders: 1,
-				size: 0,
-				accuracy: "medium",
+				link: "0123456789ABCDEF0123456789ABCDEF01234567",
+				title: "creepersaur",
+				size: 1,
 				type: "alt",
+				date: new Date(),
+				seeders: 1,
+				leechers: 0,
+				downloads: 0,
+				accuracy: "medium"
 			}
 		]
 	}
