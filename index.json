@@ -1,5 +1,6 @@
 [
 	{
+		"manifestVersion": 2,
 		"id": "hayase.extension.torrentio",
 		"name": "Torrentio",
 		"version": "1.0.0",
