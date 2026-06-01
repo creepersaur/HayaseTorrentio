@@ -1,11 +1,10 @@
+console.log("TORRENTIO MODULE LOADED")
+
 export default new class Torrentio {
-	// base = 'https://torrent-search-api-livid.vercel.app/api/nyaasi/'
+	// gh:creepersaur/HayaseTorrentio
 
 	async single({ titles, episode }) {
-		// if (!titles?.length) return []
-		// return this.search(titles[0], episode)
-
-		console.log("TORRENTIO LOADED")
+		console.log("TORRENTIO: single()")
 
 		return [
 			{
@@ -26,41 +25,7 @@ export default new class Torrentio {
 	batch = this.single
 	movie = this.single
 
-	async search(title, episode) {
-		return [
-			{
-				title: "creepersaur",
-				link: "magnet:?xt=urn:btih:0123456789ABCDEF0123456789ABCDEF01234567",
-				hash: "0123456789ABCDEF0123456789ABCDEF01234567",
-			}
-		]
-	}
-
-	// async search(title, episode) {
-	// 	let query = title.replace(/[^\w\s-]/g, ' ').trim()
-	// 	if (episode) query += ` ${episode.toString().padStart(2, '0')}`
-
-	// 	const res = await fetch(this.base + encodeURIComponent(query))
-	// 	const data = await res.json()
-	// 	if (!Array.isArray(data)) return []
-
-	// 	return data.map(item => ({
-	// 		title: item.Name,
-	// 		link: item.Magnet,
-	// 		hash: item.Magnet?.match(/btih:([A-Fa-f0-9]+)/)?.[1] || '',
-	// 		seeders: Number(item.Seeders || 0),
-	// 		leechers: Number(item.Leechers || 0),
-	// 		downloads: Number(item.Downloads || 0),
-	// 		size: 0,
-	// 		date: new Date(item.DateUploaded),
-	// 		accuracy: 'medium',
-	// 		type: 'alt'
-	// 	}))
-	// }
-
 	async test() {
 		return true
-		// const res = await fetch(this.base + 'one%20piece')
-		// return res.ok
 	}
 }()
